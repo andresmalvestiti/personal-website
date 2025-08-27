@@ -39,6 +39,21 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --font-inter: 'Inter', sans-serif;
+  --font-fira-code: 'Fira Code', monospace;
+
+  /* Extended theme */
+  --color-accent-custom: #3B82F6;
+  --color-accent-custom-light: #60A5FA;
+  --color-dark-custom: #0F172A;
+  --color-dark-secondary-custom: #1E293B;
+  --color-text-primary-custom: #F8FAFC;
+  --color-text-secondary-custom: #94A3B8;
+}
+
+/* utility class for specific cases */
+.font-code {
+  font-family: var(--font-fira-code);
 }
 
 :root {
