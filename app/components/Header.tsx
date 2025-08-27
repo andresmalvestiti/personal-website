@@ -8,10 +8,10 @@ import {
 } from "./lib/ui/sheet";
 import { useState } from "react";
 
-function Logo () {
+export function Logo () {
   return <div id="logo" className="flex items-center">
   <div className="w-10 h-10 bg-accent-custom rounded-md flex items-center justify-center">
-    <span className="font-code font-bold text-accent text-xl">A</span>
+    <span className="font-code font-bold text-dark-custom text-xl">A</span>
   </div>
 </div>;
 }
