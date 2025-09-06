@@ -54,7 +54,7 @@ function Nav({ className, onItemClick }: NavProps) {
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  return <header className="flex items-center justify-between py-6 px-8">
+  return <header className="sticky top-0 flex items-center justify-between py-6 px-8">
     <Logo/>
 
     {/* Desktop nav */}
